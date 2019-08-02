@@ -1,3 +1,7 @@
+  .buttons-group {
+    font-size: 0;
+  }
+
   .buttons {
     display: inline-block;
     text-align: center;
@@ -7,13 +11,14 @@
     white-space: nowrap;
     padding: 15.5px 24px;
     font-size: 15px;
+    transition: all .2s linear;
   }
 
   .buttons.buttons-primary {
     color: #000;
     background-color: #fff;
     border: 1px solid #ccc;
-    font-weight: bolder;
+    font-weight: bold;
   }
 
   .buttons.buttons-primary:hover {
@@ -26,17 +31,16 @@
     border: 0;
   }
 
-  .buttons-dark + .buttons-dark {
+  .buttons.buttons-dark + .buttons.buttons-dark {
     margin-left: 5px;
   }
 
   .buttons.buttons-dark:hover {
     color: #000;
     background-color: #ccc;
-    border: 0;
   }
 
-  .buttons.buttons-dark:first-child {
+  .buttons.buttons-disable {
     cursor: no-drop;
     filter: opacity(20%);
   }

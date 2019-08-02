@@ -1,18 +1,18 @@
-.items {
+.list {
   background-color: #fff;
   color: #000;
 }
 
-.items-style {
+.list .list-item {
   padding: 16px;
   font-size: 0;
 }
 
-.items-style + .items-style {
+.list .list-item + .list-item {
   border-top: 1px solid #ccc;
 }
 
-.items-img {
+.list .list-item .item-img {
   width: 50px;
   height: 50px;
   background-position: center;
@@ -21,15 +21,14 @@
   margin-right: 12px;
 }
 
-.items-text {
+.list .list-item .item-text {
   display: inline-block;
   line-height: 1;
 }
 
-.items-text span {
+.list .list-item .item-text > span {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
   margin: 10px 0;
 }
-

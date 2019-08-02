@@ -8,12 +8,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-
   <title>Document</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
       <h1 class="headline">MY BLOLG</h1>
       <p class="headline-title">Welcome to the blog of <span class="tag tag-dark">unknown</span></p>
@@ -39,13 +38,12 @@
             <div class="cards-action">
               <button class="buttons buttons-primary">READ MORE »</button>
               <div class="cards-comment">
-                <p>comment</p>
+                <b>Comments</b>
                 <span class="tag tag-dark tag-square">0</span>
               </div>
             </div>
           </div>
         </div>
-
         <div class="cards">
           <div class="cards-img" style="background-image: url(img/woods.jpg)"></div>
           <div class="cards-body">
@@ -70,7 +68,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-xl-4 col-lg-12">
         <div class="cards">
           <div class="cards-img" style="background-image: url(img/avatar_g.jpg)"></div>
@@ -82,50 +79,48 @@
             </p>
           </div>
         </div>
-
         <div class="panel">
           <div class="panel-headline">
-            <h4 class="panel-headline-style">Popular Posts</h4>
+            <p>Popular</p>
           </div>
-          <div class="panel-body panel-body-tag">
-            <ul class="items">
-              <li class="items-style">
-                <div class="items-img" style="background-image: url(img/workshop.jpg)"></div>
-                <div class="items-text">
+          <div class="panel-body">
+            <ul class="list">
+              <li class="list-item">
+                <div class="item-img" style="background-image: url(img/workshop.jpg)"></div>
+                <div class="item-text">
                   <span>Lorem</span>
                   <p>Sed mattis nunc</p>
                 </div>
               </li>
-              <li class="items-style">
-                <div class="items-img" style="background-image: url(img/workshop.jpg)"></div>
-                <div class="items-text">
-                  <span>Lorem</span>
-                  <p>Sed mattis nunc</p>
+              <li class="list-item">
+                <div class="item-img" style="background-image: url(img/gondol.jpg)"></div>
+                <div class="item-text">
+                  <span>Ipsum</span>
+                  <p>Praes tinci sed</p>
                 </div>
               </li>
-              <li class="items-style">
-                <div class="items-img" style="background-image: url(img/workshop.jpg)"></div>
-                <div class="items-text">
-                  <span>Lorem</span>
-                  <p>Sed mattis nunc</p>
+              <li class="list-item">
+                <div class="item-img" style="background-image: url(img/skies.jpg)"></div>
+                <div class="item-text">
+                  <span>Dorum</span>
+                  <p>Ultricies congue</p>
                 </div>
               </li>
-              <li class="items-style">
-                <div class="items-img" style="background-image: url(img/workshop.jpg)"></div>
-                <div class="items-text">
-                  <span>Lorem</span>
-                  <p>Sed mattis nunc</p>
+              <li class="list-item">
+                <div class="item-img" style="background-image: url(img/rock.jpg)"></div>
+                <div class="item-text">
+                  <span>Mingsum</span>
+                  <p>Lorem ipsum dipsum</p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        
         <div class="panel">
           <div class="panel-headline">
-            <h4 class="panel-headline-style">Tags</h4>
+            <p>Tags</p>
           </div>
-          <div class="panel-body panel-body-tag has-padding">
+          <div class="panel-body has-padding">
             <div class="list-tag ">
               <span class="tag tag-dark">Travel</span>
               <span class="tag tag-gray">New York</span>
@@ -147,12 +142,13 @@
       </div>
     </div>
   </div>
-  <footer>
-    <div class="footer-buttons">
-      <button class="buttons buttons-dark">Previous</button>
+  <footer class="footer">
+    <div class="buttons-group">
+      <button class="buttons buttons-dark buttons-disable">Previous</button>
       <button class="buttons buttons-dark">Next »</button>
-      <p class="footer-text">Powered by w3.css</p>
     </div>
+    <p class="footer-text">Powered by <a href="#">w3.css</a></p>
   </footer>
 </body>
+
 </html>

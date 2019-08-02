@@ -4,21 +4,22 @@
   margin-bottom: 40px;
 }
 
-.panel-headline {
+.panel .panel-headline {
   padding: 13px 16px;
 }
 
-.panel-headline-style {
-  font-weight: 400;
+.panel .panel-headline p {
+  font-weight: 500;
   margin: 10px 0;
   font-size: 20px;
   line-height: 1;
 }
 
-.panel-body {
+.panel .panel-body {
   background-color: #fff;
 }
 
-.has-padding{
-  padding: 16px 16px;
+.panel .panel-body.has-padding {
+  padding: 16px;
 }
+

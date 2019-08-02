@@ -14,36 +14,35 @@
   padding: 16px;
 }
 
-.cards-heading {
+.cards .cards-body .cards-heading {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
-.cards-description {
+.cards .cards-body .cards-description {
   margin-bottom: 24px;
 }
 
-.cards-datetime {
+.cards .cards-body .cards-description .cards-datetime {
   color: #dddddd;
   margin-left: 4px;
 }
 
-.cards-text {
+.cards .cards-body .cards-text {
   margin-bottom: 24px;
 }
 
-.cards .cards-action {
+.cards .cards-body .cards-action {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.cards .cards-comment > p {
+.cards .cards-body .cards-action .cards-comment > p {
   display: inline-block;
   margin-right: 4px;
 }
-
 
 @media ( max-width : 576px) {
   .cards-comment {

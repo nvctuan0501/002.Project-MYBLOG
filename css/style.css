@@ -5,4 +5,5 @@
 @import "component/panel.css";
 @import "component/header.css";
 @import "component/footer.css";
-@import "component/item.css"
+@import "component/list.css";
+@import "component/headline.css";
